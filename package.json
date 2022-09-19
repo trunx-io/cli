@@ -1,15 +1,15 @@
 {
   "name": "@trunx-io/cli",
   "description": "Trunx-IO command line wallet for EOSIO chains",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Andrew Chaney (netuoso) @netuoso",
   "bin": {
     "trunxcli": "./bin/run"
   },
   "bugs": "https://github.com/Trunx-IO/cli/issues",
   "dependencies": {
-    "@trunx-io/ipc-client": "1.0.0",
-    "@trunx-io/plugin-eosio": "1.0.0",
+    "@trunx-io/ipc-client": "1.0.1",
+    "@trunx-io/plugin-eosio": "1.0.1",
     "@trunx-io/service": "1.0.0",
     "@oclif/command": "^1",
     "@oclif/config": "^1",

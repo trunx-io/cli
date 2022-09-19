@@ -19,7 +19,7 @@ $ npm install -g @trunx-io/cli
 $ trunxcli COMMAND
 running command...
 $ trunxcli (-v|--version|version)
-@trunx-io/cli/1.0.1 darwin-arm64 node-v18.4.0
+@trunx-io/cli/1.0.2 darwin-arm64 node-v18.4.0
 $ trunxcli --help [COMMAND]
 USAGE
   $ trunxcli COMMAND
@@ -104,7 +104,7 @@ DESCRIPTION
   The accounts:add command is used to add new accounts to the current wallet database.
 ```
 
-_See code: [src/commands/accounts/add.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/accounts/add.js)_
+_See code: [src/commands/accounts/add.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/accounts/add.js)_
 
 ## `trunxcli accounts:list`
 
@@ -122,7 +122,7 @@ DESCRIPTION
   The accounts:list command is used to list the existing accounts in the wallet database
 ```
 
-_See code: [src/commands/accounts/list.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/accounts/list.js)_
+_See code: [src/commands/accounts/list.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/accounts/list.js)_
 
 ## `trunxcli accounts:remove ACCOUNT_NAME`
 
@@ -142,7 +142,7 @@ DESCRIPTION
   The accounts:remove command is used to remove new accounts to the current wallet database.
 ```
 
-_See code: [src/commands/accounts/remove.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/accounts/remove.js)_
+_See code: [src/commands/accounts/remove.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/accounts/remove.js)_
 
 ## `trunxcli accounts:update ACCOUNT_NAME`
 
@@ -165,7 +165,7 @@ DESCRIPTION
    - If --chain_id (-c) is not supplied the user will be prompted to select a known chain.
 ```
 
-_See code: [src/commands/accounts/update.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/accounts/update.js)_
+_See code: [src/commands/accounts/update.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/accounts/update.js)_
 
 ## `trunxcli apps:add APP`
 
@@ -182,7 +182,7 @@ DESCRIPTION
   The apps:add command is used to add new apps to the current wallet database.
 ```
 
-_See code: [src/commands/apps/add.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/apps/add.js)_
+_See code: [src/commands/apps/add.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/apps/add.js)_
 
 ## `trunxcli apps:list`
 
@@ -196,7 +196,7 @@ DESCRIPTION
   The apps:list command is used to list the existing apps in the wallet database
 ```
 
-_See code: [src/commands/apps/list.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/apps/list.js)_
+_See code: [src/commands/apps/list.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/apps/list.js)_
 
 ## `trunxcli apps:remove [APP URL]`
 
@@ -213,7 +213,7 @@ DESCRIPTION
   The apps:remove command is used to remove apps from the wallet database
 ```
 
-_See code: [src/commands/apps/remove.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/apps/remove.js)_
+_See code: [src/commands/apps/remove.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/apps/remove.js)_
 
 ## `trunxcli autocomplete [SHELL]`
 
@@ -236,7 +236,7 @@ EXAMPLES
   $ trunxcli autocomplete --refresh-cache
 ```
 
-_See code: [@oclif/plugin-autocomplete](https://github.com/oclif/plugin-autocomplete/blob/v1.2.0/src/commands/autocomplete/index.ts)_
+_See code: [@oclif/plugin-autocomplete](https://github.com/oclif/plugin-autocomplete/blob/v1.3.0/src/commands/autocomplete/index.ts)_
 
 ## `trunxcli backups:create`
 
@@ -254,7 +254,7 @@ DESCRIPTION
   Current wallet password will be required to access or import the backup.
 ```
 
-_See code: [src/commands/backups/create.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/backups/create.js)_
+_See code: [src/commands/backups/create.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/backups/create.js)_
 
 ## `trunxcli backups:import FILE`
 
@@ -274,7 +274,7 @@ DESCRIPTION
   The backups:import command is used to create a new database from a TrunxIO wallet backup
 ```
 
-_See code: [src/commands/backups/import.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/backups/import.js)_
+_See code: [src/commands/backups/import.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/backups/import.js)_
 
 ## `trunxcli backups:import_anchor FILE`
 
@@ -296,7 +296,7 @@ DESCRIPTION
   order to import.
 ```
 
-_See code: [src/commands/backups/import_anchor.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/backups/import_anchor.js)_
+_See code: [src/commands/backups/import_anchor.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/backups/import_anchor.js)_
 
 ## `trunxcli backups:import_scatter FILE`
 
@@ -318,7 +318,7 @@ DESCRIPTION
   order to import.
 ```
 
-_See code: [src/commands/backups/import_scatter.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/backups/import_scatter.js)_
+_See code: [src/commands/backups/import_scatter.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/backups/import_scatter.js)_
 
 ## `trunxcli chains:add SERVER`
 
@@ -335,7 +335,7 @@ DESCRIPTION
   The chains:add command is used to add new chains to the current wallet database.
 ```
 
-_See code: [src/commands/chains/add.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/chains/add.js)_
+_See code: [src/commands/chains/add.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/chains/add.js)_
 
 ## `trunxcli chains:list`
 
@@ -349,7 +349,7 @@ DESCRIPTION
   The chains:list command is used to list the existing chains in the wallet database
 ```
 
-_See code: [src/commands/chains/list.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/chains/list.js)_
+_See code: [src/commands/chains/list.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/chains/list.js)_
 
 ## `trunxcli chains:remove SERVER`
 
@@ -366,7 +366,7 @@ DESCRIPTION
   The chains:remove command is used to remove chains from the wallet database
 ```
 
-_See code: [src/commands/chains/remove.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/chains/remove.js)_
+_See code: [src/commands/chains/remove.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/chains/remove.js)_
 
 ## `trunxcli config:get [NAME]`
 
@@ -383,7 +383,7 @@ DESCRIPTION
   The settings:get command is used to get TrunxIO wallet config values.
 ```
 
-_See code: [src/commands/config/get.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/config/get.js)_
+_See code: [src/commands/config/get.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/config/get.js)_
 
 ## `trunxcli config:init`
 
@@ -398,7 +398,7 @@ DESCRIPTION
   configuration for the TrunxIO wallet.
 ```
 
-_See code: [src/commands/config/init.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/config/init.js)_
+_See code: [src/commands/config/init.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/config/init.js)_
 
 ## `trunxcli config:set [SETTING]`
 
@@ -415,7 +415,7 @@ DESCRIPTION
   The settings:set command is used to set TrunxIO wallet config values.
 ```
 
-_See code: [src/commands/config/set.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/config/set.js)_
+_See code: [src/commands/config/set.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/config/set.js)_
 
 ## `trunxcli config:unset [NAME]`
 
@@ -432,7 +432,7 @@ DESCRIPTION
   The settings:unset command is used to unset TrunxIO wallet config values.
 ```
 
-_See code: [src/commands/config/unset.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/config/unset.js)_
+_See code: [src/commands/config/unset.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/config/unset.js)_
 
 ## `trunxcli db:addobject DATA`
 
@@ -452,7 +452,7 @@ DESCRIPTION
   Add new object to the TrunxIO wallet database.
 ```
 
-_See code: [src/commands/db/addobject.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/db/addobject.js)_
+_See code: [src/commands/db/addobject.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/db/addobject.js)_
 
 ## `trunxcli db:list`
 
@@ -463,7 +463,7 @@ USAGE
   $ trunxcli db:list
 ```
 
-_See code: [src/commands/db/list.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/db/list.js)_
+_See code: [src/commands/db/list.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/db/list.js)_
 
 ## `trunxcli db:lock`
 
@@ -477,7 +477,7 @@ DESCRIPTION
   The db:lock command is used to lock a wallet file.
 ```
 
-_See code: [src/commands/db/lock.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/db/lock.js)_
+_See code: [src/commands/db/lock.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/db/lock.js)_
 
 ## `trunxcli db:read TABLE`
 
@@ -496,7 +496,7 @@ DESCRIPTION
   Use the --showPrivate flag if you wish to see sensitive data in output.
 ```
 
-_See code: [src/commands/db/read.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/db/read.js)_
+_See code: [src/commands/db/read.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/db/read.js)_
 
 ## `trunxcli db:removeobject ID`
 
@@ -516,7 +516,7 @@ DESCRIPTION
   Remove an existing object from the TrunxIO wallet database.
 ```
 
-_See code: [src/commands/db/removeobject.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/db/removeobject.js)_
+_See code: [src/commands/db/removeobject.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/db/removeobject.js)_
 
 ## `trunxcli db:setobject DATA`
 
@@ -539,7 +539,7 @@ DESCRIPTION
     - This command will update an existing object in the database if data contains '_id' field.
 ```
 
-_See code: [src/commands/db/setobject.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/db/setobject.js)_
+_See code: [src/commands/db/setobject.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/db/setobject.js)_
 
 ## `trunxcli db:unlock`
 
@@ -560,7 +560,7 @@ DESCRIPTION
   Use the --showPrivate flag if you wish to see private keys in output.
 ```
 
-_See code: [src/commands/db/unlock.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/db/unlock.js)_
+_See code: [src/commands/db/unlock.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/db/unlock.js)_
 
 ## `trunxcli eosio:buyram PAYER RECEIVER AMOUNT`
 
@@ -589,7 +589,7 @@ DESCRIPTION
   Buy RAM.
 ```
 
-_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.0/src/commands/eosio/buyram.js)_
+_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.1/src/commands/eosio/buyram.js)_
 
 ## `trunxcli eosio:claimrewards OWNER`
 
@@ -616,7 +616,7 @@ DESCRIPTION
   Claim producer rewards.
 ```
 
-_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.0/src/commands/eosio/claimrewards.js)_
+_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.1/src/commands/eosio/claimrewards.js)_
 
 ## `trunxcli eosio:delegatebw FROM RECEIVER STAKE_NET_QUANTITY STAKE_CPU_QUANTITY`
 
@@ -648,7 +648,7 @@ DESCRIPTION
   Delegate bandwidth to a user account
 ```
 
-_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.0/src/commands/eosio/delegatebw.js)_
+_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.1/src/commands/eosio/delegatebw.js)_
 
 ## `trunxcli eosio:fetch`
 
@@ -667,7 +667,7 @@ DESCRIPTION
   Fetch some data from an EOSIO/DFuse endpoint.
 ```
 
-_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.0/src/commands/eosio/fetch.js)_
+_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.1/src/commands/eosio/fetch.js)_
 
 ## `trunxcli eosio:listbw ACCOUNT`
 
@@ -688,7 +688,7 @@ DESCRIPTION
   List bandwidth for the user account
 ```
 
-_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.0/src/commands/eosio/listbw.js)_
+_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.1/src/commands/eosio/listbw.js)_
 
 ## `trunxcli eosio:listproducers`
 
@@ -708,7 +708,7 @@ DESCRIPTION
   List block producers
 ```
 
-_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.0/src/commands/eosio/listproducers.js)_
+_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.1/src/commands/eosio/listproducers.js)_
 
 ## `trunxcli eosio:regproducer PRODUCER PRODUCER_KEY [URL] [LOCATION]`
 
@@ -738,7 +738,7 @@ DESCRIPTION
   Register an existing user account as a block producer.
 ```
 
-_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.0/src/commands/eosio/regproducer.js)_
+_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.1/src/commands/eosio/regproducer.js)_
 
 ## `trunxcli eosio:regproxy PROXY`
 
@@ -765,7 +765,7 @@ DESCRIPTION
   Register an existing user account as a proxy for voting.
 ```
 
-_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.0/src/commands/eosio/regproxy.js)_
+_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.1/src/commands/eosio/regproxy.js)_
 
 ## `trunxcli eosio:sellram ACCOUNT BYTES`
 
@@ -793,7 +793,7 @@ DESCRIPTION
   Buy RAM.
 ```
 
-_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.0/src/commands/eosio/sellram.js)_
+_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.1/src/commands/eosio/sellram.js)_
 
 ## `trunxcli eosio:transfer FROM TO QUANTITY [MEMO]`
 
@@ -823,7 +823,7 @@ DESCRIPTION
   Transfer tokens from one account to another.
 ```
 
-_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.0/src/commands/eosio/transfer.js)_
+_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.1/src/commands/eosio/transfer.js)_
 
 ## `trunxcli eosio:undelegatebw FROM RECEIVER UNSTAKE_NET_QUANTITY UNSTAKE_CPU_QUANTITY`
 
@@ -853,7 +853,7 @@ DESCRIPTION
   Undelegate bandwidth for the user account
 ```
 
-_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.0/src/commands/eosio/undelegatebw.js)_
+_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.1/src/commands/eosio/undelegatebw.js)_
 
 ## `trunxcli eosio:unregproducer PRODUCER`
 
@@ -880,7 +880,7 @@ DESCRIPTION
   Unregister an account from being a block producer.
 ```
 
-_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.0/src/commands/eosio/unregproducer.js)_
+_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.1/src/commands/eosio/unregproducer.js)_
 
 ## `trunxcli eosio:unregproxy PROXY`
 
@@ -907,7 +907,7 @@ DESCRIPTION
   Register an existing user account as a proxy for voting.
 ```
 
-_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.0/src/commands/eosio/unregproxy.js)_
+_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.1/src/commands/eosio/unregproxy.js)_
 
 ## `trunxcli eosio:voteproducer SUBCOMMAND VOTER PRODUCER`
 
@@ -941,7 +941,7 @@ DESCRIPTION
   	- 'unapprove': Remove one producer from list of voted producers
 ```
 
-_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.0/src/commands/eosio/voteproducer.js)_
+_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.1/src/commands/eosio/voteproducer.js)_
 
 ## `trunxcli esr:decode TX`
 
@@ -956,13 +956,13 @@ ARGUMENTS
 
 OPTIONS
   -p, --permission=permission  [default: ............1,............2] account@permission used to sign transaction.
-  -s, --server=server          [default: http://localhost:8888] EOSIO node used for fetching ABIs
+  -s, --server=server          [default: https://eos.greymass.com] EOSIO node used for fetching ABIs
 
 DESCRIPTION
   Parse ESR transaction and print the raw result.
 ```
 
-_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.0/src/commands/esr/decode.js)_
+_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.1/src/commands/esr/decode.js)_
 
 ## `trunxcli esr:encode TX`
 
@@ -976,13 +976,13 @@ ARGUMENTS
   TX  EOSIO Transaction in JSON format
 
 OPTIONS
-  -s, --server=server  EOSIO node used for fetching ABIs and chain_id. Defaults to: http://localhost:8888
+  -s, --server=server  EOSIO node used for fetching ABIs and chain_id. Defaults to: https://eos.greymass.com
 
 DESCRIPTION
   Encode EOSIO transaction as Singing Request.
 ```
 
-_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.0/src/commands/esr/encode.js)_
+_See code: [@trunx-io/plugin-eosio](https://github.com/Trunx-IO/plugin-eosio/blob/v1.0.1/src/commands/esr/encode.js)_
 
 ## `trunxcli help [COMMAND]`
 
@@ -1016,7 +1016,7 @@ DESCRIPTION
   The keys:add command is used to add new keys to the current TrunxIO wallet database.
 ```
 
-_See code: [src/commands/keys/add.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/keys/add.js)_
+_See code: [src/commands/keys/add.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/keys/add.js)_
 
 ## `trunxcli keys:derive [ROLE] [INDEX]`
 
@@ -1037,7 +1037,7 @@ DESCRIPTION
   The keys:derive command is used to derive key pairs from the wallets mnemonic phrase
 ```
 
-_See code: [src/commands/keys/derive.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/keys/derive.js)_
+_See code: [src/commands/keys/derive.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/keys/derive.js)_
 
 ## `trunxcli keys:list`
 
@@ -1051,7 +1051,7 @@ DESCRIPTION
   The keys:list command is used to list the existing keys in the TrunxIO wallet database
 ```
 
-_See code: [src/commands/keys/list.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/keys/list.js)_
+_See code: [src/commands/keys/list.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/keys/list.js)_
 
 ## `trunxcli keys:remove KEY`
 
@@ -1068,7 +1068,7 @@ DESCRIPTION
   The keys:remove command is used to remove new keys to the current TrunxIO wallet database.
 ```
 
-_See code: [src/commands/keys/remove.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/keys/remove.js)_
+_See code: [src/commands/keys/remove.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/keys/remove.js)_
 
 ## `trunxcli logs`
 
@@ -1087,7 +1087,7 @@ DESCRIPTION
   The logs command will allow you to view the TrunxIO wallet logs.
 ```
 
-_See code: [src/commands/logs.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/logs.js)_
+_See code: [src/commands/logs.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/logs.js)_
 
 ## `trunxcli plugins`
 
@@ -1243,7 +1243,7 @@ DESCRIPTION
   The service:start command will start the TrunxIO Wallet service and return its PID.
 ```
 
-_See code: [src/commands/service/start.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/service/start.js)_
+_See code: [src/commands/service/start.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/service/start.js)_
 
 ## `trunxcli service:stop`
 
@@ -1257,7 +1257,7 @@ DESCRIPTION
   The service:stop command will stop the detached TrunxIO Wallet database service.
 ```
 
-_See code: [src/commands/service/stop.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/service/stop.js)_
+_See code: [src/commands/service/stop.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/service/stop.js)_
 
 ## `trunxcli status`
 
@@ -1272,5 +1272,5 @@ DESCRIPTION
   if the wallet is unlocked, and which wallet is currently set as active.
 ```
 
-_See code: [src/commands/status.js](https://github.com/Trunx-IO/cli/blob/v1.0.1/src/commands/status.js)_
+_See code: [src/commands/status.js](https://github.com/Trunx-IO/cli/blob/v1.0.2/src/commands/status.js)_
 <!-- commandsstop -->
