@@ -1,0 +1,94 @@
+{
+  "name": "@trunx-io/cli",
+  "description": "Trunx-IO command line wallet for EOSIO chains",
+  "version": "1.0.1",
+  "author": "Andrew Chaney (netuoso) @netuoso",
+  "bin": {
+    "trunxcli": "./bin/run"
+  },
+  "bugs": "https://github.com/Trunx-IO/cli/issues",
+  "dependencies": {
+    "@trunx-io/ipc-client": "1.0.0",
+    "@trunx-io/plugin-eosio": "1.0.0",
+    "@trunx-io/service": "1.0.0",
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-autocomplete": "^1.2.0",
+    "@oclif/plugin-help": "^3",
+    "@oclif/plugin-not-found": "^2.3.1",
+    "@oclif/plugin-plugins": "^2.1.0",
+    "@oclif/plugin-update": "^3.0.0",
+    "@oclif/test": "^1.2.8",
+    "aes-oop": "^1.0.4",
+    "axios": "^0.25.0",
+    "bip39": "^2.6.0",
+    "chai": "^4.3.4",
+    "cli-ux": "^5.5.1",
+    "crypto-js": "^4.0.0",
+    "cryptr": "^6.0.2",
+    "eosjs-ecc": "^4.0.7",
+    "hdkey": "^2.0.1",
+    "inquirer": "^8.1.0",
+    "node-emoji": "^1.10.0",
+    "read-last-lines": "^1.8.0",
+    "scrypt-async": "^2.0.1",
+    "tail": "^2.2.2",
+    "tar": "^6.1.0",
+    "wif": "^2.0.6"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "files": [
+    "/bin",
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json",
+    "/src"
+  ],
+  "homepage": "https://github.com/Trunx-IO/cli",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "commands": "./src/commands",
+    "bin": "trunxcli",
+    "topics": {
+      "accounts": {
+        "description": "manage accounts in the TrunxIO database"
+      },
+      "backups": {
+        "description": "manage backups of the TrunxIO database"
+      },
+      "chains": {
+        "description": "manage chains in the TrunxIO database"
+      },
+      "db": {
+        "description": "manage the TrunxIO database"
+      },
+      "keys": {
+        "description": "manage keys in the TrunxIO database"
+      },
+      "service": {
+        "description": "manage the TrunxIO backend service"
+      }
+    },
+    "macos": {
+      "identifier": "com.trunxio.cli"
+    },
+    "plugins": [
+      "@oclif/plugin-help",
+      "@oclif/plugin-autocomplete",
+      "@oclif/plugin-plugins",
+      "@oclif/plugin-not-found",
+      "@trunx-io/plugin-eosio"
+    ]
+  },
+  "repository": "Trunx-IO/cli",
+  "scripts": {
+    "postpack": "rm -f oclif.manifest.json",
+    "prepack": "oclif-dev manifest && oclif-dev readme",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}

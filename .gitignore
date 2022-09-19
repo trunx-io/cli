@@ -1,0 +1,9 @@
+*-debug.log
+*-error.log
+.nyc_output
+dist/
+tmp/
+package-lock.json
+node_modules/**
+.env
+**/.trunxio-test-tmp/
